@@ -14,6 +14,7 @@
 		B332AB4820EEB4A100702DC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B332AB4620EEB4A100702DC4 /* LaunchScreen.storyboard */; };
 		B332AB5020EEB80000702DC4 /* GoogleService-Info-4.plist in Resources */ = {isa = PBXBuildFile; fileRef = B332AB4F20EEB80000702DC4 /* GoogleService-Info-4.plist */; };
 		B332AB5A20EEC72D00702DC4 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B332AB5920EEC72D00702DC4 /* Login.storyboard */; };
+		B332AB5C20EECBBF00702DC4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332AB5B20EECBBF00702DC4 /* LoginViewController.swift */; };
 		CA4E69B5338F327ED5A6EDE4 /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62576FB068DDF705F09AADE5 /* Pods_Makestagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		B332AB4920EEB4A100702DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B332AB4F20EEB80000702DC4 /* GoogleService-Info-4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-4.plist"; sourceTree = "<group>"; };
 		B332AB5920EEC72D00702DC4 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		B332AB5B20EECBBF00702DC4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DB74DB125CC6F44A07BAC1B3 /* Pods-Makestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				B332AB3F20EEB49E00702DC4 /* ViewController.swift */,
+				B332AB5B20EECBBF00702DC4 /* LoginViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B332AB5C20EECBBF00702DC4 /* LoginViewController.swift in Sources */,
 				B332AB4020EEB49E00702DC4 /* ViewController.swift in Sources */,
 				B332AB3E20EEB49E00702DC4 /* AppDelegate.swift in Sources */,
 			);
