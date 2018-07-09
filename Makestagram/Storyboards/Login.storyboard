@@ -17,13 +17,71 @@
                     <view key="view" contentMode="scaleToFill" id="Vdq-o9-nrc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g6I-sp-9KN">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="240"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="SNM-aj-ghG">
+                                        <rect key="frame" x="68" y="68" width="240" height="104.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Makestagram" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mby-uT-hJ0">
+                                                <rect key="frame" x="12" y="0.0" width="216" height="43.5"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="36"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign up to see photos and videos from your friends" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9wm-cd-hMc">
+                                                <rect key="frame" x="0.0" y="68.5" width="240" height="36"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="240" id="852-dK-ocN"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.41568627450980389" blue="0.58431372549019611" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="Azd-Ko-PhO"/>
+                                    <constraint firstItem="SNM-aj-ghG" firstAttribute="centerY" secondItem="g6I-sp-9KN" secondAttribute="centerY" id="QZp-gl-4eD"/>
+                                    <constraint firstItem="SNM-aj-ghG" firstAttribute="centerX" secondItem="g6I-sp-9KN" secondAttribute="centerX" id="U3T-EQ-UCw"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vdh-CF-r6m">
+                                <rect key="frame" x="35" y="265" width="305" height="44"/>
+                                <color key="backgroundColor" red="0.2196078431372549" green="0.59215686274509804" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="9ar-EN-6Lh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <state key="normal" title="Register or Log in">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="loginButtonTapped:" destination="cd2-m0-rmj" eventType="touchUpInside" id="gai-OG-jQf"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="g6I-sp-9KN" firstAttribute="leading" secondItem="77F-Ne-QBs" secondAttribute="leading" id="Jsi-O9-hDT"/>
+                            <constraint firstItem="77F-Ne-QBs" firstAttribute="trailing" secondItem="g6I-sp-9KN" secondAttribute="trailing" id="T7X-eB-f7v"/>
+                            <constraint firstItem="vdh-CF-r6m" firstAttribute="leading" secondItem="77F-Ne-QBs" secondAttribute="leading" constant="35" id="YEX-er-edk"/>
+                            <constraint firstItem="77F-Ne-QBs" firstAttribute="trailing" secondItem="vdh-CF-r6m" secondAttribute="trailing" constant="35" id="aSn-X3-bzn"/>
+                            <constraint firstItem="g6I-sp-9KN" firstAttribute="top" secondItem="Vdq-o9-nrc" secondAttribute="top" id="qgc-nw-3ay"/>
+                            <constraint firstItem="vdh-CF-r6m" firstAttribute="top" secondItem="g6I-sp-9KN" secondAttribute="bottom" constant="25" id="tp1-gJ-Fs3"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="77F-Ne-QBs"/>
                     </view>
+                    <connections>
+                        <outlet property="loginButton" destination="vdh-CF-r6m" id="avQ-TM-7yK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NQ3-YC-8vo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="185" y="117"/>
+            <point key="canvasLocation" x="184.80000000000001" y="116.49175412293854"/>
         </scene>
     </scenes>
 </document>

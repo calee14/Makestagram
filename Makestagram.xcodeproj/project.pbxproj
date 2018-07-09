@@ -12,7 +12,7 @@
 		B332AB4320EEB49E00702DC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B332AB4120EEB49E00702DC4 /* Main.storyboard */; };
 		B332AB4520EEB4A000702DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B332AB4420EEB4A000702DC4 /* Assets.xcassets */; };
 		B332AB4820EEB4A100702DC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B332AB4620EEB4A100702DC4 /* LaunchScreen.storyboard */; };
-		B332AB5020EEB80000702DC4 /* GoogleService-Info-4.plist in Resources */ = {isa = PBXBuildFile; fileRef = B332AB4F20EEB80000702DC4 /* GoogleService-Info-4.plist */; };
+		B332AB5020EEB80000702DC4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B332AB4F20EEB80000702DC4 /* GoogleService-Info.plist */; };
 		B332AB5A20EEC72D00702DC4 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B332AB5920EEC72D00702DC4 /* Login.storyboard */; };
 		B332AB5C20EECBBF00702DC4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332AB5B20EECBBF00702DC4 /* LoginViewController.swift */; };
 		CA4E69B5338F327ED5A6EDE4 /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62576FB068DDF705F09AADE5 /* Pods_Makestagram.framework */; };
@@ -28,7 +28,7 @@
 		B332AB4420EEB4A000702DC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B332AB4720EEB4A100702DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B332AB4920EEB4A100702DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B332AB4F20EEB80000702DC4 /* GoogleService-Info-4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-4.plist"; sourceTree = "<group>"; };
+		B332AB4F20EEB80000702DC4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B332AB5920EEC72D00702DC4 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		B332AB5B20EECBBF00702DC4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DB74DB125CC6F44A07BAC1B3 /* Pods-Makestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.debug.xcconfig"; sourceTree = "<group>"; };
@@ -78,12 +78,12 @@
 			children = (
 				B332AB3D20EEB49E00702DC4 /* AppDelegate.swift */,
 				B332AB5820EEBAB900702DC4 /* Views */,
+				B332AB5120EEB9D500702DC4 /* Controllers */,
 				B332AB5720EEBAB300702DC4 /* Supporting */,
 				B332AB5620EEBAAA00702DC4 /* Storyboards */,
 				B332AB5520EEBAA100702DC4 /* Services */,
 				B332AB5420EEBA9900702DC4 /* Helpers */,
 				B332AB5320EEBA8B00702DC4 /* Models */,
-				B332AB5120EEB9D500702DC4 /* Controllers */,
 				B332AB5220EEBA8200702DC4 /* Extensions */,
 				B332AB4420EEB4A000702DC4 /* Assets.xcassets */,
 			);
@@ -141,7 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				B332AB4920EEB4A100702DC4 /* Info.plist */,
-				B332AB4F20EEB80000702DC4 /* GoogleService-Info-4.plist */,
+				B332AB4F20EEB80000702DC4 /* GoogleService-Info.plist */,
 			);
 			path = Supporting;
 			sourceTree = "<group>";
@@ -222,7 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B332AB5020EEB80000702DC4 /* GoogleService-Info-4.plist in Resources */,
+				B332AB5020EEB80000702DC4 /* GoogleService-Info.plist in Resources */,
 				B332AB4820EEB4A100702DC4 /* LaunchScreen.storyboard in Resources */,
 				B332AB4520EEB4A000702DC4 /* Assets.xcassets in Resources */,
 				B332AB5A20EEC72D00702DC4 /* Login.storyboard in Resources */,
