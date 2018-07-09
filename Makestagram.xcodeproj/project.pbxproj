@@ -17,6 +17,7 @@
 		B332AB5C20EECBBF00702DC4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332AB5B20EECBBF00702DC4 /* LoginViewController.swift */; };
 		B3F4B1F620F3E8080048BA3D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4B1F520F3E8080048BA3D /* User.swift */; };
 		B3F4B1FC20F4052B0048BA3D /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4B1FB20F4052B0048BA3D /* CreateUsernameViewController.swift */; };
+		B3F4B1FE20F4099F0048BA3D /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4B1FD20F4099F0048BA3D /* UserService.swift */; };
 		CA4E69B5338F327ED5A6EDE4 /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62576FB068DDF705F09AADE5 /* Pods_Makestagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		B332AB5B20EECBBF00702DC4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B3F4B1F520F3E8080048BA3D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B3F4B1FB20F4052B0048BA3D /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
+		B3F4B1FD20F4099F0048BA3D /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		DB74DB125CC6F44A07BAC1B3 /* Pods-Makestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,6 +131,7 @@
 		B332AB5520EEBAA100702DC4 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				B3F4B1FD20F4099F0048BA3D /* UserService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 			files = (
 				B3F4B1F620F3E8080048BA3D /* User.swift in Sources */,
 				B332AB5C20EECBBF00702DC4 /* LoginViewController.swift in Sources */,
+				B3F4B1FE20F4099F0048BA3D /* UserService.swift in Sources */,
 				B332AB4020EEB49E00702DC4 /* ViewController.swift in Sources */,
 				B3F4B1FC20F4052B0048BA3D /* CreateUsernameViewController.swift in Sources */,
 				B332AB3E20EEB49E00702DC4 /* AppDelegate.swift in Sources */,
