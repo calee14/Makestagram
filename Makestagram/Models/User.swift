@@ -8,10 +8,19 @@
 
 import Foundation
 import FirebaseDatabase.FIRDataSnapshot
+
 class User {
     
     let uid: String
     let username: String
+    private static var _current: User?
+    
+    static var current: User {
+        guard let currentUser = _current else {
+            fatalError("Error: current user doesn't exist")
+        }
+        return currentUser
+    }
     
     init(uid: String, username: String) {
         self.uid = uid
@@ -25,5 +34,9 @@ class User {
         self.uid = snapshot.key
         self.username = username
         
+    }
+    
+    static func setCurrent(_ user: User) {
+        _current = user
     }
 }

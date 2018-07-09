@@ -27,7 +27,9 @@ class CreateUsernameViewController: UIViewController {
             !username.isEmpty else { return }
         
         UserService.create(firUser, username: username, completion: { (user) in
-            guard let _ = user else { return }
+            guard let user = user else { return }
+            
+            User.setCurrent(user)
             
             let storyboard = UIStoryboard(name: "Main", bundle: .main)
             
