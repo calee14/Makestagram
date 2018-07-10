@@ -20,7 +20,7 @@ class MainTabBarController: UITabBarController {
         tabBar.unselectedItemTintColor = .black
         
         photoHelper.completionHandler = { image in
-            print("Handle Image")
+            PostService.create(for: image)
         }
         
         delegate = self
