@@ -13,6 +13,7 @@
 		B304D76A20F531700080B82B /* MGPhotoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B304D76920F531700080B82B /* MGPhotoHelper.swift */; };
 		B304D76C20F55E380080B82B /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B304D76B20F55E380080B82B /* StorageService.swift */; };
 		B304D76E20F562130080B82B /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B304D76D20F562130080B82B /* PostService.swift */; };
+		B304D77020F573C90080B82B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B304D76F20F573C90080B82B /* Post.swift */; };
 		B332AB3E20EEB49E00702DC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332AB3D20EEB49E00702DC4 /* AppDelegate.swift */; };
 		B332AB4320EEB49E00702DC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B332AB4120EEB49E00702DC4 /* Main.storyboard */; };
 		B332AB4520EEB4A000702DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B332AB4420EEB4A000702DC4 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 		B304D76920F531700080B82B /* MGPhotoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGPhotoHelper.swift; sourceTree = "<group>"; };
 		B304D76B20F55E380080B82B /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
 		B304D76D20F562130080B82B /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
+		B304D76F20F573C90080B82B /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		B332AB3A20EEB49E00702DC4 /* Makestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Makestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B332AB3D20EEB49E00702DC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B332AB4220EEB49E00702DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				B3F4B1F520F3E8080048BA3D /* User.swift */,
+				B304D76F20F573C90080B82B /* Post.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				B332AB5C20EECBBF00702DC4 /* LoginViewController.swift in Sources */,
 				B304D76820F5272B0080B82B /* MainTabBarController.swift in Sources */,
 				B3F4B20220F425F20048BA3D /* Storyboard+Utilities.swift in Sources */,
+				B304D77020F573C90080B82B /* Post.swift in Sources */,
 				B304D76420F51BDF0080B82B /* HomeViewController.swift in Sources */,
 				B304D76A20F531700080B82B /* MGPhotoHelper.swift in Sources */,
 				B3F4B1FE20F4099F0048BA3D /* UserService.swift in Sources */,
