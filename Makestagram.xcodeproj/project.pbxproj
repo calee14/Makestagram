@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B304D76420F51BDF0080B82B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B304D76320F51BDF0080B82B /* HomeViewController.swift */; };
+		B304D76620F51C110080B82B /* FindFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B304D76520F51C110080B82B /* FindFriendsViewController.swift */; };
 		B332AB3E20EEB49E00702DC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332AB3D20EEB49E00702DC4 /* AppDelegate.swift */; };
-		B332AB4020EEB49E00702DC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332AB3F20EEB49E00702DC4 /* ViewController.swift */; };
 		B332AB4320EEB49E00702DC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B332AB4120EEB49E00702DC4 /* Main.storyboard */; };
 		B332AB4520EEB4A000702DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B332AB4420EEB4A000702DC4 /* Assets.xcassets */; };
 		B332AB4820EEB4A100702DC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B332AB4620EEB4A100702DC4 /* LaunchScreen.storyboard */; };
@@ -26,9 +27,10 @@
 /* Begin PBXFileReference section */
 		62576FB068DDF705F09AADE5 /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86D5C5CC3F46A4D4C91D5A3B /* Pods-Makestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.release.xcconfig"; sourceTree = "<group>"; };
+		B304D76320F51BDF0080B82B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B304D76520F51C110080B82B /* FindFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFriendsViewController.swift; sourceTree = "<group>"; };
 		B332AB3A20EEB49E00702DC4 /* Makestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Makestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B332AB3D20EEB49E00702DC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B332AB3F20EEB49E00702DC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B332AB4220EEB49E00702DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B332AB4420EEB4A000702DC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B332AB4720EEB4A100702DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,9 +105,10 @@
 		B332AB5120EEB9D500702DC4 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				B332AB3F20EEB49E00702DC4 /* ViewController.swift */,
 				B332AB5B20EECBBF00702DC4 /* LoginViewController.swift */,
 				B3F4B1FB20F4052B0048BA3D /* CreateUsernameViewController.swift */,
+				B304D76320F51BDF0080B82B /* HomeViewController.swift */,
+				B304D76520F51C110080B82B /* FindFriendsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -318,8 +321,9 @@
 				B3F4B1F620F3E8080048BA3D /* User.swift in Sources */,
 				B332AB5C20EECBBF00702DC4 /* LoginViewController.swift in Sources */,
 				B3F4B20220F425F20048BA3D /* Storyboard+Utilities.swift in Sources */,
+				B304D76420F51BDF0080B82B /* HomeViewController.swift in Sources */,
 				B3F4B1FE20F4099F0048BA3D /* UserService.swift in Sources */,
-				B332AB4020EEB49E00702DC4 /* ViewController.swift in Sources */,
+				B304D76620F51C110080B82B /* FindFriendsViewController.swift in Sources */,
 				B3F4B20020F424C70048BA3D /* Constants.swift in Sources */,
 				B3F4B1FC20F4052B0048BA3D /* CreateUsernameViewController.swift in Sources */,
 				B332AB3E20EEB49E00702DC4 /* AppDelegate.swift in Sources */,

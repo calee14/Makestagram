@@ -9,7 +9,7 @@
 import Foundation
 import FirebaseDatabase.FIRDataSnapshot
 
-class User {
+class User: Codable {
     
     let uid: String
     let username: String
@@ -36,7 +36,12 @@ class User {
         
     }
     
-    static func setCurrent(_ user: User) {
+    static func setCurrent(_ user: User, writeToUserDefaults: Bool = false) {
+        if writeToUserDefaults {
+            if let data = try? JSONEncoder().encode(user) {
+                UserDefaults.standard.set(data, forKey: Constants.UserDefaults.currentUser)
+            }
+        }
         _current = user
     }
 }

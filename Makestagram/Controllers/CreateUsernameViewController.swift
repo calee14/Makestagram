@@ -29,7 +29,7 @@ class CreateUsernameViewController: UIViewController {
         UserService.create(firUser, username: username, completion: { (user) in
             guard let user = user else { return }
             
-            User.setCurrent(user)
+            User.setCurrent(user, writeToUserDefaults: true)
             
             let initialViewController = UIStoryboard.initializeViewController(for: .main)
             self.view.window?.rootViewController = initialViewController
