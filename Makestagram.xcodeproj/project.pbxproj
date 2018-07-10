@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		B304D76420F51BDF0080B82B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B304D76320F51BDF0080B82B /* HomeViewController.swift */; };
 		B304D76620F51C110080B82B /* FindFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B304D76520F51C110080B82B /* FindFriendsViewController.swift */; };
+		B304D76820F5272B0080B82B /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B304D76720F5272B0080B82B /* MainTabBarController.swift */; };
+		B304D76A20F531700080B82B /* MGPhotoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B304D76920F531700080B82B /* MGPhotoHelper.swift */; };
 		B332AB3E20EEB49E00702DC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B332AB3D20EEB49E00702DC4 /* AppDelegate.swift */; };
 		B332AB4320EEB49E00702DC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B332AB4120EEB49E00702DC4 /* Main.storyboard */; };
 		B332AB4520EEB4A000702DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B332AB4420EEB4A000702DC4 /* Assets.xcassets */; };
@@ -29,6 +31,8 @@
 		86D5C5CC3F46A4D4C91D5A3B /* Pods-Makestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.release.xcconfig"; sourceTree = "<group>"; };
 		B304D76320F51BDF0080B82B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B304D76520F51C110080B82B /* FindFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFriendsViewController.swift; sourceTree = "<group>"; };
+		B304D76720F5272B0080B82B /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		B304D76920F531700080B82B /* MGPhotoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGPhotoHelper.swift; sourceTree = "<group>"; };
 		B332AB3A20EEB49E00702DC4 /* Makestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Makestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B332AB3D20EEB49E00702DC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B332AB4220EEB49E00702DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -109,6 +113,7 @@
 				B3F4B1FB20F4052B0048BA3D /* CreateUsernameViewController.swift */,
 				B304D76320F51BDF0080B82B /* HomeViewController.swift */,
 				B304D76520F51C110080B82B /* FindFriendsViewController.swift */,
+				B304D76720F5272B0080B82B /* MainTabBarController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 		B332AB5420EEBA9900702DC4 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				B304D76920F531700080B82B /* MGPhotoHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -320,8 +326,10 @@
 			files = (
 				B3F4B1F620F3E8080048BA3D /* User.swift in Sources */,
 				B332AB5C20EECBBF00702DC4 /* LoginViewController.swift in Sources */,
+				B304D76820F5272B0080B82B /* MainTabBarController.swift in Sources */,
 				B3F4B20220F425F20048BA3D /* Storyboard+Utilities.swift in Sources */,
 				B304D76420F51BDF0080B82B /* HomeViewController.swift in Sources */,
+				B304D76A20F531700080B82B /* MGPhotoHelper.swift in Sources */,
 				B3F4B1FE20F4099F0048BA3D /* UserService.swift in Sources */,
 				B304D76620F51C110080B82B /* FindFriendsViewController.swift in Sources */,
 				B3F4B20020F424C70048BA3D /* Constants.swift in Sources */,
