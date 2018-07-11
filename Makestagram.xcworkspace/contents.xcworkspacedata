@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/cap1/Desktop/Apps/Makestagram/Makestagram/Storyboards/Home.storyboard">
+   </FileRef>
+   <FileRef
       location = "group:Makestagram.xcodeproj">
    </FileRef>
    <FileRef
