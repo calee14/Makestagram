@@ -24,6 +24,7 @@
 		B39A9F0E20F672AF0055AA1F /* UIImage+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39A9F0D20F672AF0055AA1F /* UIImage+Size.swift */; };
 		B39A9F1020F674C40055AA1F /* StorageReference+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39A9F0F20F674C40055AA1F /* StorageReference+Post.swift */; };
 		B39A9F1520F67B120055AA1F /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B39A9F1420F67B120055AA1F /* Home.storyboard */; };
+		B39A9F1720F6AF220055AA1F /* PostImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39A9F1620F6AF220055AA1F /* PostImageCell.swift */; };
 		B3F4B1F620F3E8080048BA3D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4B1F520F3E8080048BA3D /* User.swift */; };
 		B3F4B1FC20F4052B0048BA3D /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4B1FB20F4052B0048BA3D /* CreateUsernameViewController.swift */; };
 		B3F4B1FE20F4099F0048BA3D /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4B1FD20F4099F0048BA3D /* UserService.swift */; };
@@ -54,6 +55,7 @@
 		B39A9F0D20F672AF0055AA1F /* UIImage+Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Size.swift"; sourceTree = "<group>"; };
 		B39A9F0F20F674C40055AA1F /* StorageReference+Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StorageReference+Post.swift"; sourceTree = "<group>"; };
 		B39A9F1420F67B120055AA1F /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		B39A9F1620F6AF220055AA1F /* PostImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageCell.swift; sourceTree = "<group>"; };
 		B3F4B1F520F3E8080048BA3D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B3F4B1FB20F4052B0048BA3D /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
 		B3F4B1FD20F4099F0048BA3D /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 		B332AB5820EEBAB900702DC4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B39A9F1620F6AF220055AA1F /* PostImageCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -292,6 +296,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -349,6 +354,7 @@
 				B304D76820F5272B0080B82B /* MainTabBarController.swift in Sources */,
 				B3F4B20220F425F20048BA3D /* Storyboard+Utilities.swift in Sources */,
 				B304D77020F573C90080B82B /* Post.swift in Sources */,
+				B39A9F1720F6AF220055AA1F /* PostImageCell.swift in Sources */,
 				B39A9F0E20F672AF0055AA1F /* UIImage+Size.swift in Sources */,
 				B304D76420F51BDF0080B82B /* HomeViewController.swift in Sources */,
 				B304D76A20F531700080B82B /* MGPhotoHelper.swift in Sources */,
