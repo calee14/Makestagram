@@ -15,6 +15,12 @@ class Post {
     let imageHeight: CGFloat
     let creationDate: Date
     
+    var dictValue: [String : Any] {
+        let createdAgo = creationDate.timeIntervalSince1970
+        return ["image_url": imageUrl,
+                "image_height": imageHeight,
+                "created_at": createdAgo]
+    }
     init(imageUrl: String, imageHeight: CGFloat) {
         self.imageUrl = imageUrl
         self.imageHeight = imageHeight
