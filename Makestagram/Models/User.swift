@@ -14,6 +14,7 @@ class User: Codable {
     let uid: String
     let username: String
     private static var _current: User?
+    var isFollowed = false
     
     static var current: User {
         guard let currentUser = _current else {
