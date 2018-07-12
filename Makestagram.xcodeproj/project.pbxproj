@@ -25,6 +25,7 @@
 		B39A9F1020F674C40055AA1F /* StorageReference+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39A9F0F20F674C40055AA1F /* StorageReference+Post.swift */; };
 		B39A9F1520F67B120055AA1F /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B39A9F1420F67B120055AA1F /* Home.storyboard */; };
 		B39A9F1720F6AF220055AA1F /* PostImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39A9F1620F6AF220055AA1F /* PostImageCell.swift */; };
+		B39E7A7320F7BC54002C8FC3 /* PostActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39E7A7220F7BC54002C8FC3 /* PostActionCell.swift */; };
 		B3B86D0E20F6CE470013251C /* PostHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B86D0D20F6CE470013251C /* PostHeaderCell.swift */; };
 		B3F4B1F620F3E8080048BA3D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4B1F520F3E8080048BA3D /* User.swift */; };
 		B3F4B1FC20F4052B0048BA3D /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4B1FB20F4052B0048BA3D /* CreateUsernameViewController.swift */; };
@@ -57,6 +58,7 @@
 		B39A9F0F20F674C40055AA1F /* StorageReference+Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StorageReference+Post.swift"; sourceTree = "<group>"; };
 		B39A9F1420F67B120055AA1F /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		B39A9F1620F6AF220055AA1F /* PostImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageCell.swift; sourceTree = "<group>"; };
+		B39E7A7220F7BC54002C8FC3 /* PostActionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostActionCell.swift; sourceTree = "<group>"; };
 		B3B86D0D20F6CE470013251C /* PostHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostHeaderCell.swift; sourceTree = "<group>"; };
 		B3F4B1F520F3E8080048BA3D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B3F4B1FB20F4052B0048BA3D /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 			children = (
 				B39A9F1620F6AF220055AA1F /* PostImageCell.swift */,
 				B3B86D0D20F6CE470013251C /* PostHeaderCell.swift */,
+				B39E7A7220F7BC54002C8FC3 /* PostActionCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -356,6 +359,7 @@
 				B332AB5C20EECBBF00702DC4 /* LoginViewController.swift in Sources */,
 				B304D76820F5272B0080B82B /* MainTabBarController.swift in Sources */,
 				B3F4B20220F425F20048BA3D /* Storyboard+Utilities.swift in Sources */,
+				B39E7A7320F7BC54002C8FC3 /* PostActionCell.swift in Sources */,
 				B304D77020F573C90080B82B /* Post.swift in Sources */,
 				B39A9F1720F6AF220055AA1F /* PostImageCell.swift in Sources */,
 				B39A9F0E20F672AF0055AA1F /* UIImage+Size.swift in Sources */,
