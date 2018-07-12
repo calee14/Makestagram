@@ -25,6 +25,7 @@
 		B39A9F1020F674C40055AA1F /* StorageReference+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39A9F0F20F674C40055AA1F /* StorageReference+Post.swift */; };
 		B39A9F1520F67B120055AA1F /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B39A9F1420F67B120055AA1F /* Home.storyboard */; };
 		B39A9F1720F6AF220055AA1F /* PostImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39A9F1620F6AF220055AA1F /* PostImageCell.swift */; };
+		B3B86D0E20F6CE470013251C /* PostHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B86D0D20F6CE470013251C /* PostHeaderCell.swift */; };
 		B3F4B1F620F3E8080048BA3D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4B1F520F3E8080048BA3D /* User.swift */; };
 		B3F4B1FC20F4052B0048BA3D /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4B1FB20F4052B0048BA3D /* CreateUsernameViewController.swift */; };
 		B3F4B1FE20F4099F0048BA3D /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4B1FD20F4099F0048BA3D /* UserService.swift */; };
@@ -56,6 +57,7 @@
 		B39A9F0F20F674C40055AA1F /* StorageReference+Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StorageReference+Post.swift"; sourceTree = "<group>"; };
 		B39A9F1420F67B120055AA1F /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		B39A9F1620F6AF220055AA1F /* PostImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageCell.swift; sourceTree = "<group>"; };
+		B3B86D0D20F6CE470013251C /* PostHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostHeaderCell.swift; sourceTree = "<group>"; };
 		B3F4B1F520F3E8080048BA3D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B3F4B1FB20F4052B0048BA3D /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
 		B3F4B1FD20F4099F0048BA3D /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
@@ -194,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				B39A9F1620F6AF220055AA1F /* PostImageCell.swift */,
+				B3B86D0D20F6CE470013251C /* PostHeaderCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -364,6 +367,7 @@
 				B3F4B20020F424C70048BA3D /* Constants.swift in Sources */,
 				B304D76E20F562130080B82B /* PostService.swift in Sources */,
 				B3F4B1FC20F4052B0048BA3D /* CreateUsernameViewController.swift in Sources */,
+				B3B86D0E20F6CE470013251C /* PostHeaderCell.swift in Sources */,
 				B332AB3E20EEB49E00702DC4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
