@@ -97,6 +97,7 @@
                                                         <constraint firstAttribute="width" secondItem="Tug-cd-WDf" secondAttribute="height" multiplier="1:1" id="llT-bP-b23"/>
                                                     </constraints>
                                                     <state key="normal" title="Button" image="btn_heart_black_outline"/>
+                                                    <state key="selected" image="btn_heart_red_solid"/>
                                                     <connections>
                                                         <action selector="likeButtonTapped:" destination="gv9-Il-IG4" eventType="touchUpInside" id="xzw-aM-4fY"/>
                                                     </connections>
@@ -192,6 +193,7 @@
     </scenes>
     <resources>
         <image name="btn_heart_black_outline" width="24" height="24"/>
+        <image name="btn_heart_red_solid" width="24" height="24"/>
         <image name="btn_options_black" width="24" height="24"/>
         <image name="tab_home_black" width="25" height="25"/>
     </resources>
