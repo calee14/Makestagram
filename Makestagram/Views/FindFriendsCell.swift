@@ -8,10 +8,16 @@
 
 import UIKit
 
+protocol FindFriendsCellDelegate: class {
+    func didTapFollowButton(_ followButton: UIButton, on cell: FindFriendsCell)
+}
+
 class FindFriendsCell: UITableViewCell {
     
     @IBOutlet weak var followButton: UIButton!
     @IBOutlet weak var usernameLabel: UILabel!
+    
+    weak var delegate: FindFriendsCellDelegate?
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -26,7 +32,7 @@ class FindFriendsCell: UITableViewCell {
         
     }
     @IBAction func followButtonTapped(_ sender: UIButton) {
-        print("Follow Button tapped")
+        delegate?.didTapFollowButton(sender, on: self)
     }
     
 }

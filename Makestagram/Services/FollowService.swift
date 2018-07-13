@@ -28,7 +28,7 @@ struct FollowService {
     private static func unfollowUser(_ user: User, forCurrentUserWithSuccess success: @escaping (Bool) -> Void) {
         let currentUID = User.current.uid
         let followData = ["followers/\(user.uid)/\(currentUID)": NSNull(),
-                          "following/\(user.uid)/\(currentUID)": NSNull()]
+                          "following/\(currentUID)/\(user.uid)": NSNull()]
         let ref = Database.database().reference()
         ref.updateChildValues(followData) { (error, ref) in
             if let error = error {
