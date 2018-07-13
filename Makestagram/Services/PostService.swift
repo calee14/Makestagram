@@ -26,13 +26,26 @@ struct PostService {
     public static func create(forUrlString urlString: String, aspectHeight: CGFloat) {
         
         let currentUser = User.current
-        
         let post = Post(imageUrl: urlString, imageHeight: aspectHeight)
         
-        let dict = post.dictValue
+        let rootRef = Database.database().reference()
+        let newPostRef = rootRef.child("posts").child(currentUser.uid).childByAutoId()
+        let newPostKey = newPostRef.key
         
-        let postRef = Database.database().reference().child("posts").child(currentUser.uid).childByAutoId()
-        
-        postRef.updateChildValues(dict)
+        FollowService.followers(for: currentUser) { (followerUIDs) in
+            
+            let timelinePostDict = ["poster_uid": currentUser.uid]
+            
+            var updatedData: [String: Any] = ["timeline/\(currentUser.uid)/\(newPostKey)": timelinePostDict]
+            
+            for uid in followerUIDs {
+                updatedData["timeilne/\(uid)/\(newPostKey)"] = timelinePostDict
+            }
+            
+            let postDict = post.dictValue
+            updatedData["post/\(currentUser.uid)/\(newPostKey)"] = postDict
+            
+            rootRef.updateChildValues(updatedData)
+        }
     }
 }
