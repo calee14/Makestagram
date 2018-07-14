@@ -12,12 +12,14 @@ import FirebaseDatabase
 
 struct PostService {
     static func create(for image: UIImage) {
+        // Upload image to Firebase
         let imageRef = StorageReference.newPostImageReference()
         StorageService.uploadImage(image, at: imageRef) { (downloadUrl) in
             guard let downloadUrl = downloadUrl else {
                 return
             }
             
+            // Get URL string
             let urlString = downloadUrl.absoluteString
             let aspectHeight = image.aspectheight
             create(forUrlString: urlString, aspectHeight: aspectHeight)
@@ -43,7 +45,7 @@ struct PostService {
             }
             
             let postDict = post.dictValue
-            updatedData["post/\(currentUser.uid)/\(newPostKey)"] = postDict
+            updatedData["posts/\(currentUser.uid)/\(newPostKey)"] = postDict
             
             rootRef.updateChildValues(updatedData)
         }

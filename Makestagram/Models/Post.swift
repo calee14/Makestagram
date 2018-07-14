@@ -18,6 +18,7 @@ class Post {
     let poster: User
     var isLiked: Bool = false
     
+    // Dictionary to hold all of the data
     var dictValue: [String : Any] {
         let createdAgo = creationDate.timeIntervalSince1970
         let userDict = ["uid": poster.uid,
@@ -29,6 +30,7 @@ class Post {
                 "like_count": likeCount,
                 "poster": userDict]
     }
+    
     init(imageUrl: String, imageHeight: CGFloat) {
         self.imageUrl = imageUrl
         self.imageHeight = imageHeight
@@ -38,6 +40,7 @@ class Post {
     }
     
     init?(snapShot: DataSnapshot) {
+        // Retrieve all the data on a post and save it to the object
         guard let dict = snapShot.value as? [String: Any],
             let imageUrl = dict["image_url"] as? String,
             let imageHeight = dict["image_height"] as? CGFloat,

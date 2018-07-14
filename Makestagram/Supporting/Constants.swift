@@ -9,6 +9,7 @@
 import Foundation
 
 struct Constants {
+    // Create constants to perform segues with the segue identifier
     struct Segue {
         static let toCreateUsername = "toCreateUsername"
     }

@@ -12,6 +12,7 @@ import FirebaseStorage
 extension StorageReference {
     static let dateFormatter = ISO8601DateFormatter()
     
+    // Create the reference in the storage for the image
     static func newPostImageReference() -> StorageReference {
         let uid = User.current.uid
         let timestamp = dateFormatter.string(from: Date())

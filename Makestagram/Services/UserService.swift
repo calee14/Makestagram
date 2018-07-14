@@ -11,16 +11,25 @@ import FirebaseAuth.FIRUser
 import FirebaseDatabase
 
 struct UserService {
+    // Insert user-related networking code here
+    
+    // Create a static method that encapsulates the functionality for creating a user on Firebase
     static func create(_ firUser: FIRUser, username: String, completion: @escaping (User?) -> Void) {
-        let userAttrs = ["username":username]
+        // Creates the attribute with the username
+        let userAttrs = ["username": username]
+        
+        // Creates a reference to the database
         let ref = Database.database().reference().child("users").child(firUser.uid)
         
+        // Sets the username
         ref.setValue(userAttrs) { (error, ref) in
+            // Error handling
             if let error = error {
                 assertionFailure(error.localizedDescription)
                 return
             }
             
+            // Read the database and return the new user that was created
             ref.observeSingleEvent(of: .value, with: { (snapshot) in
                 let user = User(snapshot: snapshot)
                 completion(user)
@@ -28,12 +37,16 @@ struct UserService {
         }
     }
     
+    // Create a new method of reading the user from the database
     static func show(forUID uid: String, completion: @escaping (User?) -> Void) {
+        // Create reference
         let ref = Database.database().reference().child("users").child(uid)
+        // Read the data
         ref.observeSingleEvent(of: .value, with: { (snapshot) in
             guard let user = User(snapshot: snapshot) else {
                 return completion(nil)
             }
+            // Return the user
             completion(user)
         })
     }

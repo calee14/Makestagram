@@ -9,6 +9,8 @@
 import UIKit
 
 extension UIImage {
+    
+    // Create a new variable called aspect height in UIImage and give change height proportionally to image size
     var aspectheight: CGFloat {
         let heightRatio = size.height / 736
         let widthRatio = size.width / 414
