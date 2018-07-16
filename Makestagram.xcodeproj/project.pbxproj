@@ -30,6 +30,7 @@
 		B39E7A7720F7ED9F002C8FC3 /* FollowService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39E7A7620F7ED9F002C8FC3 /* FollowService.swift */; };
 		B39E7A7B20F7F5E7002C8FC3 /* FindFriends.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B39E7A7A20F7F5E7002C8FC3 /* FindFriends.storyboard */; };
 		B39E7A7D20F7F66D002C8FC3 /* FindFriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39E7A7C20F7F66D002C8FC3 /* FindFriendsCell.swift */; };
+		B39E7AA120FC53C8002C8FC3 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39E7AA020FC53C8002C8FC3 /* UIColor+Hex.swift */; };
 		B3B86D0E20F6CE470013251C /* PostHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B86D0D20F6CE470013251C /* PostHeaderCell.swift */; };
 		B3F4B1F620F3E8080048BA3D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4B1F520F3E8080048BA3D /* User.swift */; };
 		B3F4B1FC20F4052B0048BA3D /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F4B1FB20F4052B0048BA3D /* CreateUsernameViewController.swift */; };
@@ -67,6 +68,7 @@
 		B39E7A7620F7ED9F002C8FC3 /* FollowService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowService.swift; sourceTree = "<group>"; };
 		B39E7A7A20F7F5E7002C8FC3 /* FindFriends.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FindFriends.storyboard; sourceTree = "<group>"; };
 		B39E7A7C20F7F66D002C8FC3 /* FindFriendsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFriendsCell.swift; sourceTree = "<group>"; };
+		B39E7AA020FC53C8002C8FC3 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
 		B3B86D0D20F6CE470013251C /* PostHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostHeaderCell.swift; sourceTree = "<group>"; };
 		B3F4B1F520F3E8080048BA3D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B3F4B1FB20F4052B0048BA3D /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				B3F4B20120F425F20048BA3D /* Storyboard+Utilities.swift */,
 				B39A9F0D20F672AF0055AA1F /* UIImage+Size.swift */,
 				B39A9F0F20F674C40055AA1F /* StorageReference+Post.swift */,
+				B39E7AA020FC53C8002C8FC3 /* UIColor+Hex.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -377,6 +380,7 @@
 				B39E7A7520F7C774002C8FC3 /* LikeService.swift in Sources */,
 				B304D77020F573C90080B82B /* Post.swift in Sources */,
 				B39A9F1720F6AF220055AA1F /* PostImageCell.swift in Sources */,
+				B39E7AA120FC53C8002C8FC3 /* UIColor+Hex.swift in Sources */,
 				B39E7A7D20F7F66D002C8FC3 /* FindFriendsCell.swift in Sources */,
 				B39A9F0E20F672AF0055AA1F /* UIImage+Size.swift in Sources */,
 				B304D76420F51BDF0080B82B /* HomeViewController.swift in Sources */,

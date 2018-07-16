@@ -54,6 +54,13 @@ extension FindFriendsViewController: UITableViewDataSource {
         
         cell.usernameLabel.text = user.username
         cell.followButton.isSelected = user.isFollowed
+        if cell.followButton.isSelected {
+            let blueTint = UIColor(rgb: 0x007AFF)
+            cell.followButton.layer.backgroundColor = blueTint.cgColor
+        } else {
+            let clearColor = UIColor.clear
+            cell.followButton.layer.backgroundColor? = clearColor.cgColor
+        }
     }
 }
 
