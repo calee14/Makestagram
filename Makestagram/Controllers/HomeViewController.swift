@@ -10,7 +10,9 @@ import UIKit
 import Kingfisher
 
 class HomeViewController: UIViewController {
-
+    
+    // MARK: - Properties
+    
     @IBOutlet weak var tableView: UITableView!
     
     var posts = [Post]()
@@ -24,6 +26,7 @@ class HomeViewController: UIViewController {
     
     let refreshControl = UIRefreshControl()
     
+    // MARK: - Functions
     override func viewDidLoad() {
         super.viewDidLoad()
         
